@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fall 23 Dev Bootcamp Submission</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sora:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div class = "card">
+            <div class = "img-carousel-cont">
+                <div class = "img-carousel">
+                    <img src = "./images/me1.jpg" class = "me-img">
+                    <img src = "./images/me2.jpg" class = "me-img">
+                    <img src = "./images/me3.jpg" class = "me-img">
+                </div>
+                <div class = "thumb-cont">
+                    <div class="prev" onclick="changeImg(-1)"><img src="./images/thumb-left.png"></div>
+                    <div class="next" onclick="changeImg(1)"><img src="./images/thumb-right.png"></div>
+                </div>
+            </div> 
+            <div class = "text-desc">
+                <h1 class = "title">About Me</h1>
+                <p class = "desc">Hi! My name is Emily Liu and I'm a second-year Computer Science major from Rockville, Maryland. Something I'm passionate about related to social good is expanding access to educational resources. In high school, I was heavily involved in various teaching-related activities including offering free lessons in computer science, music (french horn), and personal finance. Recently, I've also become inspired and motivated to expand my impact and by utilizing my background in computer science to develop solutions that uplift various communities!</p>
+            </div>
+        </div>
+        
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
