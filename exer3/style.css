@@ -37,3 +37,43 @@ body {
 .icon {
     border-radius: 50%;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-container div {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.search-bar {
+    background-color: lightgray;
+    width: 80%;
+    margin-right: 16px;
+}
+
+.enter-button {
+    background-color: #0084fd;
+}
+
+.enter-button p {
+    color: black;
+    text-decoration: un
+}
