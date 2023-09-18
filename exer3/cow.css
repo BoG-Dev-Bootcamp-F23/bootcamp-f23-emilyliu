@@ -22,3 +22,46 @@ html, body {
     padding-left: 16px;
     padding-right: 16px;
 }
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.search-result-container {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.search-result {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.result-header {
+    color: blue;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.result-body {
+    color: white;
+}
+
+.image-container {
+    background-color: #520031;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.text-content {
+    border-top: solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
