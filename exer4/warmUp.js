@@ -16,7 +16,19 @@
  * F = anything < 60
  */
 function toLetterGrade(numGrade) {
-  // TODO
+  if (numGrade > 100 | numGrade < 0) {
+    return "INVALID"
+  } else if (numGrade <= 100 & numGrade >= 90) {
+    return "A"
+  } else if (numGrade >= 80) {
+    return "B"
+  } else if (numGrade >= 70) {
+    return "C"
+  } else if (numGrade >= 60) {
+    return "D"
+  } else {
+    return "F"
+  }
 }
 
 /**
@@ -27,7 +39,7 @@ function toLetterGrade(numGrade) {
  * Example: [9, 3, 4, 1, 2, 0] --> [4, 2, 0]
  */
 function getEvenElements(array) {
-  // TODO
+  return array.filter(ele => ele % 2 === 0) 
 }
 
 /**
@@ -40,7 +52,17 @@ function getEvenElements(array) {
  * Example: "I love Bits of Good" --> 4
  */
 function findLongestWord(string) {
-  // TODO
+  let words = string.split(" ")
+  let longestWordLength = words[0].length
+
+  const checkLength = (word) => {
+    if (word.length > longestWordLength) {
+      longestWordLength = word.length
+    }
+  }
+
+  words.forEach(word => checkLength(word))
+  return longestWordLength
 }
 
 /**
@@ -66,6 +88,11 @@ function findLongestWord(string) {
  */
 function combineObjects(object1, object2) {
   // TODO
+  let combinedObjects = {
+    ...object1,
+    ...object2
+  }
+  return combinedObjects
 }
 
 /**
@@ -77,7 +104,10 @@ function combineObjects(object1, object2) {
  *  Example: [1, 2, 3] -> [3, 2, 1]
  */
 function reverseArr(array) {
-  // TODO
+  let arrLength = array.length
+  let reverseArr = [...array]
+  reverseArr = array.map((ele, index) => reverseArr[arrLength - 1 - index])
+  return reverseArr
 }
 
 // DO NOT EDIT BELOW THIS LINE -- the code is for testing purposes only!
