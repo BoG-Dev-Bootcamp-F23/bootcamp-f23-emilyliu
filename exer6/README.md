@@ -52,7 +52,7 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 - Create a 0.5-2 minute demo video to showcase your project's functionality (this is just so that we don't have to go through and install dependencies / deal with versioning errors for every single exercise)
 - Bonus: Conditional rendering for when there are no trains to display
 
-## Display Examples
+## Display Example
 
 **Gold**
 
@@ -60,5 +60,4 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 
 **Green**
 
-<img width="500" alt="Screenshot 2023-10-16 at 10 08 22 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/990cb8e8-8441-4f05-bc1f-f9991bf977bb">
-
+<img width="500" alt="Screenshot 2023-10-19 at 7 17 18 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/113480497/043e7a06-614f-41f8-8ef9-5c6cf7523b02">
