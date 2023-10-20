@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 export default function LinesPage() {
   // initialize some currColor state
-  const [currColor, setCurrColor] = useState("GOLD")
+  const [currColor, setCurrColor] = useState("GREEN")
 
   return (
     <div className = "lines_page_container">
