@@ -12,9 +12,9 @@ export default async function handler(req, res) {
                 console.log(pokemon);
                 typeArr.push(pokemon.pokemon.name);
             })
-            res.status(400).json(typeArr);
+            return res.status(400).json(typeArr);
         } catch (e) {
-            res.status(400).json({ error: "type not found" })
+            return res.status(400).json({ error: "type not found" })
         }
     } else {
         return res.status(500).json({error: "cannot complete request"});

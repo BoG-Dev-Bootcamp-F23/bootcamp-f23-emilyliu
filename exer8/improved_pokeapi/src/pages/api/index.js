@@ -14,7 +14,7 @@ export default async function handler(req, res) {
                 sprite: data.sprites.front_default,
                 types: types
             }
-            res.status(200).json(jsonObj);
+            return res.status(200).json(jsonObj);
         } catch (e) {
             return res.status(500).json({error: "cannot complete request"});
         }
