@@ -89,6 +89,7 @@ PATCH /transferTicket
 
 ### VIDEO
 PLEASE MAKE A 1-5 MIN DEMO VIDEO SHOWING EACH OF YOUR OPERATIONS TO THE DATABASE USING POSTMAN AND THROUGH ATLAS ITSELF!
+Video Link: https://www.youtube.com/watch?v=5_vWuAN3Nd4
 
 In this video:
 - Create at least 2 users and show in MongoDB
